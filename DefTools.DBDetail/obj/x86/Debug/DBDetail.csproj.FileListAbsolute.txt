@@ -1,0 +1,16 @@
+C:\Users\l.garcia.tomiyama\Desktop\AVANADE.DBDetail\AVANADE.DBDetail\bin\Debug\AVANADE.DBDetail.exe.config
+C:\Users\l.garcia.tomiyama\Desktop\AVANADE.DBDetail\DefTools.DBDetail\bin\Debug\AVANADE.DBDetail.exe.config
+C:\Users\l.garcia.tomiyama\Desktop\AVANADE.DBDetail\DefTools.DBDetail\bin\Debug\AVANADE.DBDetail.exe
+C:\Users\l.garcia.tomiyama\Desktop\AVANADE.DBDetail\DefTools.DBDetail\bin\Debug\AVANADE.DBDetail.pdb
+C:\Users\l.garcia.tomiyama\Desktop\AVANADE.DBDetail\DefTools.DBDetail\obj\x86\Debug\DefTools.DBDetail.Forms.frmConn.resources
+C:\Users\l.garcia.tomiyama\Desktop\AVANADE.DBDetail\DefTools.DBDetail\obj\x86\Debug\DefTools.DBDetail.Forms.frmProcedure.resources
+C:\Users\l.garcia.tomiyama\Desktop\AVANADE.DBDetail\DefTools.DBDetail\obj\x86\Debug\DefTools.DBDetail.Forms.frmScript.resources
+C:\Users\l.garcia.tomiyama\Desktop\AVANADE.DBDetail\DefTools.DBDetail\obj\x86\Debug\DefTools.DBDetail.Forms.frmTabelas.resources
+C:\Users\l.garcia.tomiyama\Desktop\AVANADE.DBDetail\DefTools.DBDetail\obj\x86\Debug\DefTools.DBDetail.Forms.frmMain.resources
+C:\Users\l.garcia.tomiyama\Desktop\AVANADE.DBDetail\DefTools.DBDetail\obj\x86\Debug\DefTools.DBDetail.Properties.Resources.resources
+C:\Users\l.garcia.tomiyama\Desktop\AVANADE.DBDetail\DefTools.DBDetail\obj\x86\Debug\DBDetail.csproj.GenerateResource.Cache
+C:\Users\l.garcia.tomiyama\Desktop\AVANADE.DBDetail\DefTools.DBDetail\obj\x86\Debug\AVANADE.DBDetail.exe
+C:\Users\l.garcia.tomiyama\Desktop\AVANADE.DBDetail\DefTools.DBDetail\obj\x86\Debug\AVANADE.DBDetail.pdb
+C:\Users\l.garcia.tomiyama\Desktop\DefTools.DBDetail\DefTools.DBDetail\bin\Debug\AVANADE.DBDetail.exe.config
+C:\Users\l.garcia.tomiyama\Desktop\DefTools.DBDetail\DefTools.DBDetail\obj\x86\Debug\AVANADE.DBDetail.exe
+C:\Users\l.garcia.tomiyama\Desktop\DefTools.DBDetail\DefTools.DBDetail\obj\x86\Debug\AVANADE.DBDetail.pdb
