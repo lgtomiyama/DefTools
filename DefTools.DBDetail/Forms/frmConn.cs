@@ -86,26 +86,22 @@ namespace DefTools.DBDetail.Forms
         {
             try
             {
-                string strConn = "";
-                if (cmbAutentica.SelectedIndex == 0)
-                {
-                    strConn = "server=" + cmbServidor.Text + ";Integrated Security=SSPI;Initial Catalog=" + cmbBanco.Text + ";";
-                }
-                else
-                {
-                    strConn = "server=" + cmbServidor.Text + ";User Id=" + txtUsuario.Text + ";" + "pwd=" + txtSenha.Text + ";Initial Catalog=" + cmbBanco.Text + ";";
-                }
-                SqlConnection sqlcon = new SqlConnection(strConn);
-                sqlcon.Open();
+    
 
-                MessageBox.Show("Conexão realizada com sucesso!");
+                Global.windowsLogon = cmbAutentica.SelectedIndex == 0;
+
                 Global.servidor = cmbServidor.Text;
                 Global.autenticacao = cmbAutentica.SelectedIndex;
                 Global.usuarioBanco = txtUsuario.Text;
                 Global.senha = txtSenha.Text;
                 Global.banco = cmbBanco.Text;
+                
+                SqlConnection sqlcon = new SqlConnection(Global.ConnectionString);
+                sqlcon.Open();
 
-                Global.ConnectionString = strConn;
+                MessageBox.Show("Conexão realizada com sucesso!");
+                Global.servidor = cmbServidor.Text;
+
                 this.Dispose();
             }
             catch

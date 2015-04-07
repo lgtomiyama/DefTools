@@ -26,7 +26,22 @@ namespace DefTools.DBDetail
 
         public static DataTable listaBancos { get; set; }
 
-        public static string ConnectionString { get; set; }
+        public static bool windowsLogon { get; set; }
+
+        public static string ConnectionString
+        {
+            get
+            {
+                if (windowsLogon)
+                    return "server=" + servidor + ";Integrated Security=SSPI;Initial Catalog=" + banco + ";";
+                else
+                    return "server=" + servidor + ";User Id=" + usuario + ";" + "pwd=" + senha + ";Initial Catalog=" + banco + ";";
+            }
+            set
+            {
+                ConnectionString = value;
+            }
+        }
 #endregion
         #region Linguagem
 
